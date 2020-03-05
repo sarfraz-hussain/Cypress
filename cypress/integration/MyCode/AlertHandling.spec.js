@@ -14,6 +14,7 @@ describe('UI Test for Daraz', function()
             });
 
             cy.get('#popup > .im-close').click()
+            cy.log('*** Alert Cleared ***')
             cy.get('#flightsearchbutton').click()
 
         })
