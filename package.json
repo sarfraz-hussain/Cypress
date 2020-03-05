@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runtests": "npm run test --",
+    "testrecord": "node_modules\\.bin\\cypress run --record --key 454b45dd-e611-40c0-a99a-b710b649ef43",
+    "runtestrecord": "npm run testrecord --"
+
+  },
+  "author": "Sarfraz Hussain",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.0.2"
+  }
+}
