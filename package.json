@@ -13,6 +13,6 @@
   "author": "Sarfraz Hussain",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.0.2"
+    "cypress": "^4.12.1"
   }
 }
